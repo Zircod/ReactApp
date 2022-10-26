@@ -1,7 +1,7 @@
 import s from './message.module.css';
 
-const Message = ({ text, author }) => {
-  console.log({ text, author });
+const Message = ({ author, text }) => {
+  console.log({ author, text });
 
   return (
     <div className={s.messages}>
